@@ -77,8 +77,8 @@
       min-width: 220px;
     }
     .logo{
-      width: 42px;
-      height: 42px;
+      width: 150px;
+      height: 150px;
       border-radius: 12px;
       background: rgba(255,255,255,.06);
       border: 1px solid var(--border);
@@ -257,6 +257,17 @@
       margin: 0 0 10px;
     }
 
+    .done-badge {
+        display: inline-block;
+        padding: 4px 8px;
+        margin-bottom: 6px;
+        font-size: 12px;
+        font-weight: 600;
+        color: #0f5132;
+        background: #d1e7dd;
+        border-radius: 6px;
+    }
+
     .kv{
       display:grid;
       grid-template-columns: 180px 1fr;
@@ -318,7 +329,7 @@
         <a class="chip" href="#vesting">Vesting</a>
         <a class="chip" href="#links">Links</a>
         <a class="chip" href="#roadmap">Roadmap</a>
-        <a class="chip" href="#whitepaper">Whitepaper</a>
+        <a class="chip" href="./whitepaper.html">Whitepaper</a>
       </nav>
     </header>
 
@@ -333,7 +344,6 @@
         <div class="cta">
           <!-- Update these links when you have them -->
           <a class="btn primary" href="https://github.com/twichtwit/twichcoin" target="_blank" rel="noopener">View contract on GitHub</a>
-          <a class="btn" href="https://t.me/TWICHcoin" target="_blank" rel="noopener">Join Telegram</a>
         </div>
 
         <p class="note">
@@ -405,13 +415,9 @@
       <p class="section-title">Official links</p>
 
       <div class="cta">
-        <a class="btn primary" href="https://twichcoin.github.io/" target="_blank" rel="noopener">Website</a>
         <a class="btn" href="https://github.com/twichtwit/twichcoin" target="_blank" rel="noopener">GitHub (contract)</a>
-        <a class="btn" href="https://t.me/TWICHcoin" target="_blank" rel="noopener">Telegram</a>
-      </div>
-
-      <div class="note" style="margin-top:12px;">
-        Tip: once you publish on mainnet, add your <span style="font-family:var(--mono)">Coin type</span> and Explorer links below.
+        <a class="btn" href="https://t.me/TWICHcoin_ann" target="_blank" rel="noopener">Telegram official</a>
+        <a class="btn" href="https://t.me/TWICHcoin_chat" target="_blank" rel="noopener">Telegram community</a>
       </div>
 
       <div class="kv" style="margin-top:12px;">
@@ -433,7 +439,10 @@
 
       <div class="kv">
         <div class="k">Phase 1</div>
-        <div class="v">Website + social channels + contract repo</div>
+        <div class="v">
+            Website + social channels + contract repo
+            <span class="done-badge">Completed · 28 Dec 2025</span><br>
+        </div>
       </div>
       <div class="kv">
         <div class="k">Phase 2</div>
@@ -444,24 +453,9 @@
         <div class="v">Community tooling (faucet / tips / simple dapp)</div>
       </div>
       <div class="kv">
-        <div class="k">Phase 4</div>
-        <div class="v">Liquidity + integrations (optional)</div>
+        <div class="k">Phase 4 - Proof of Engagement Mining (ongoing)</div>
+        <div class="v">Rewards are distributed using a weighted probability model based on verified audience attention and interaction.</div>
       </div>
-    </section>
-
-    <section class="card" id="whitepaper" style="margin-top:18px;">
-      <p class="section-title">Whitepaper</p>
-      <p style="margin:0;color:var(--muted);">
-        Add a lightweight whitepaper page (HTML) for basics: purpose, token model, vesting, disclaimers, and links.
-      </p>
-
-      <div class="cta" style="margin-top:12px;">
-        <a class="btn primary" href="./whitepaper.html">Open Whitepaper</a>
-      </div>
-
-      <p class="note" style="margin-top:12px;">
-        If you don’t want a “whitepaper”, rename this to “Docs” — same idea, less hype.
-      </p>
     </section>
 
     <footer>
